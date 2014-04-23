@@ -8,7 +8,6 @@
     box-shadow:0 0 1px 1px rgba(0,0,0,0.1);
     -webkit-backface-visibility: hidden;
     -webkit-perspective: 1000;
-    transition:all 0.35s ease;
     z-index:100;
     
     .caret {
@@ -79,8 +78,6 @@
 body.nav-hidden {
     .site-nav {
         top:-100px;
-        transition:all 0.35s ease;
-        -webkit-transform: translate3d(0px, 0, 0px);
     }
 }
 
