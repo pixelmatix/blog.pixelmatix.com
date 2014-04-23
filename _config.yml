@@ -42,6 +42,8 @@ inc:
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
 url:         http://blog.pixematix.com
+# not sure why this was needed but was consistently getting errors even with clean repo until I added this
+encoding: utf-8
 source:      .
 destination: ./_site
 plugins:     ./_plugins
