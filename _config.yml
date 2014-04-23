@@ -1,8 +1,8 @@
 inc:
   # Blog Information
   title:        "Pixelmatix"
-  subtitle:     ""
-  cover_image:  blog-cover.jpg
+  #subtitle:     ""
+  #cover_image:  blog-cover.jpg
   logo:         logo.png
 
   # Company information
