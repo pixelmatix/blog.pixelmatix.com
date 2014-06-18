@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pixelmatix</title>
+    <link>http://blog.pixelmatix.com</link>
+    <atom:link href="http://blog.pixelmatix.com/rssfeed.xml" rel="self" type="application/rss+xml" />
+    <description></description>
+    <language>en-us</language>
+    <pubDate>Wed, 18 Jun 2014 19:20:45 +0000</pubDate>
+    <lastBuildDate>Wed, 18 Jun 2014 19:20:45 +0000</lastBuildDate>
+
+    
+    
+    <item>
+      <title>June Update</title>
+      <link>http://blog.pixelmatix.com/2014/06/18/JuneUpdate/</link>
+      <pubDate>Wed, 18 Jun 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://blog.pixelmatix.com/2014/06/18/JuneUpdate</guid>
+      <description>&lt;h2 id=&quot;aurora_display&quot;&gt;Aurora Display&lt;/h2&gt;
+
+&lt;p&gt;The Bay Area Maker Faire was a great event, and we talked to lots of people who were interested in the Aurora Display. These were some of the most requested features by people visiting our booth:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A board that doesn’t require soldering&lt;/li&gt;
+
+&lt;li&gt;Software to configure the display that doesn’t require programming&lt;/li&gt;
+
+&lt;li&gt;Onboard memory to display pictures and animations without being tied to a computer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We are working on the next version of the Aurora Display with these features in mind&lt;/p&gt;
+
+&lt;h2 id=&quot;smartmatrix_shield&quot;&gt;SmartMatrix Shield&lt;/h2&gt;
+
+&lt;p&gt;New Distributor: SmartMatrix Shield is now available for &lt;a href=&quot;https://www.adafruit.com/products/1902&quot;&gt;purchase from Adafruit&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Adafruit was our top choice for distributor as they sell everything you need to put together a complete project with the SmartMatrix Shield: The Teensy 3.1, power supply, 32x32 and 16x32 RGB LED Matrix displays, and plenty of breakout boards for sensors and radios to add to your project&lt;/p&gt;
+
+&lt;h2 id=&quot;arduino_library&quot;&gt;Arduino Library&lt;/h2&gt;
+
+&lt;p&gt;One of the most requested features for the SmartMatrix Library is to support chaining two or more display panels from one Shield, to make a larger display. With help from one of our beta testers (Thanks &lt;a href=&quot;https://github.com/ncortot/&quot;&gt;@ncortot&lt;/a&gt;!), the next release of the Library will be able to support chaining up to a maximum size of 32x128 pixels. Look for that release announcement in the next few weeks via the &lt;a href=&quot;http://blog.pixelmatix.com/&quot;&gt;Pixelmatix Blog&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/PixelmatixRGB&quot;&gt;Twitter&lt;/a&gt;, or &lt;a href=&quot;https://www.facebook.com/Pixelmatix&quot;&gt;Facebook&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Fadecandy and the Aurora Display</title>
+      <link>http://blog.pixelmatix.com/2014/05/17/AuroraDisplay/</link>
+      <pubDate>Sat, 17 May 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://blog.pixelmatix.com/2014/05/17/AuroraDisplay</guid>
+      <description>&lt;p&gt;After seeing the awesome open source project &lt;a href=&quot;https://github.com/scanlime/fadecandy&quot;&gt;Fadecandy&lt;/a&gt;, and how beautiful and smooth it is able to control LEDs, I had to try to port the Fadecandy firmware to run on the SmartMatrix. I’m happy to say the project was a success, and I have a heavily modified fork of the Fadecandy firmware running on a Teensy 3.1. The firmware in combination with a slightly modified Fadecandy server is able to drive a 32x32 RGB matrix panel with 36-bit color at &amp;gt;120 Hz refresh.&lt;/p&gt;
+
+&lt;p&gt;In parallel with the Fadecandy firmware port, I have been working on an enclosure design that protects the panel, while adding nice looking diffusion and color contrast. After testing many different materials, I found a white plastic that provides good diffusion, and in combination with a light gray transparent acrylic, good color contrast.&lt;/p&gt;
+
+&lt;p&gt;The Aurora Display is a combination of SmartMatrix Shield, and an enclosure with an adjustable diffusion screen that can be separated from the RGB matrix panel. By putting the diffusion screen close to the panel, the screen shows a pixelated effect. By separating the diffusion screen from the panel, the individual pixels lose focus and blur together. The images that can be made with the out of focus panel don’t look like they could be made by such a low resolution display.&lt;/p&gt;
+
+&lt;p&gt;Unmodified photo of the display (other than cropping out the background):&lt;br /&gt;&lt;img src=&quot;/images/AuroraIsolated.png&quot; alt=&quot;Aurora Display&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I am showing the initial prototypes at the Bay Area Maker Faire, and will have a limited number available for sale. More information and videos of the display will come in the next few weeks, as well as information on preordering from the first production run.&lt;/p&gt;
+
+&lt;p&gt;Subscribe to the &lt;a href=&quot;http://eepurl.com/UX2V5&quot;&gt;Aurora Display email list&lt;/a&gt; to get be the first to know when the display will be available for pre-order, as well as get access to early-bird discounts.&lt;/p&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Pixelmatix</title>
+      <link>http://blog.pixelmatix.com/2014/04/23/Pixelmatix/</link>
+      <pubDate>Wed, 23 Apr 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://blog.pixelmatix.com/2014/04/23/Pixelmatix</guid>
+      <description>&lt;p&gt;Announcing Pixelmatix and the SmartMatrix Shield for Teensy 3.&lt;/p&gt;
+
+&lt;p&gt;The SmartMatrix Library is an Arduino library written for the Teensy 3 that makes it easy to add great looking graphics using an RGB LED Panel to your Arduino project.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/makerfaireprofile.jpg&quot; alt=&quot;SmartMatrix Library&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://docs.pixelmatix.com/SmartMatrix/&quot;&gt;SmartMatrix Library - Pixelmatix Docs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The SmartMatrix Shield is the best way to connect the Teensy 3.1 to compatible Large RGB LED matrix display panels. The shield makes it easy to connect the 13 signals required to drive the display, connects an external power supply to the display and Teensy, and brings out the Teensy’s free signals to a convenient header.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/ProtoIsometric.jpg&quot; alt=&quot;SmartMatrix Shield&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://docs.pixelmatix.com/SmartMatrix/shieldref.html&quot;&gt;SmartMatrix Shield - Pixelmatix Docs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The shield is available for purchase and is shipping now, visit &lt;a href=&quot;http://docs.pixelmatix.com/SmartMatrix/&quot;&gt;docs.pixelmatix.com&lt;/a&gt; and use the “Shop” link in the header to buy one now.&lt;/p&gt;</description>
+    </item>
+    
+    
+
+  </channel>
+</rss>
